@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Bubbles App</title>
+</head>
+<body>
+    <h1>Bubbles App</h1>
+   <div class="myDiv">
+    <table>
+        <tr>
+           <td> <span onclick="movt()" class="dot x1"></span></td>
+           <td><img class="right" id="bird"  src="image/arrow.jpeg" alt="arrow" width="70" height="30"></td>
+        </tr>
+        
+    </table>
+    <table>
+        <tr>
+            <td><span onclick="moveleft()" class="dot x2"></span></td>
+            <td><img class="right" id="inspo"  src="image/arrow.jpeg" alt="arrow" width="70" height="30"></td>
+        </tr>  
+    </table>
+    <table>
+        <tr>
+            <td><span onclick="moveeft()"  class="dot x3"></span></td>
+            <td><img class="right"  id="ipo" src="image/arrow.jpeg" alt="arrow" width="70" height="30"></td>
+        </tr>
+    </table>
+    <table>
+        <tr>
+            <td><span onclick="movft()" class="dot x4"></span></td>
+            <td><img class="right" id="cool"  src="image/arrow.jpeg" alt="arrow" width="70" height="30"></td>
+        </tr>       
+    </table>
+   </div>
+    <input type="button" value="Reset" onClick="window.location.reload()" class="right btn">
+    <p>click on the circle : the arrow will move towards the corresponding circle and as it hits the circle the color will change.</p>
+    <script src="myScript.js"></script>
+</body>
+</html>
